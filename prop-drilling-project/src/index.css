@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa1cIjl8uTPpbDriQUay5gao19dAoiXmhzUg&s");
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  height: 100vh;
+  /* background-color: rgb(86, 86, 86); */
+  padding: 30px;
+}
+
+.card {
+  height: 400px;
+  width: 350px;
+  background: rgba(0, 89, 255, 0.055);
+  box-shadow: 0 8px 32px 0 rgba(78, 78, 79, 0.121);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-between;
+}
+
+.card .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  /* padding: 4px; */
+  border: 1px solid white;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid gray;
+  background: none;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.bottom {
+  border-top: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.bottom button {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  gap: 5px;
+  border: 1px solid rgb(1, 1, 1);
+  background: rgb(255, 255, 255);
+  color: #ff9706;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.center h3 {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 30px;
+}
+
+span {
+  font-size: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+
+.clssa {
+  display: flex;
+  /* justify-content: center; */
+  gap: 10px;
+  align-items: center;
+}
+
+.clssa h4 {
+  background-color: rgba(128, 128, 128, 0.432);
+  padding: 7px;
+  border-radius: 10px;
+  font-weight: lighter;
+}
