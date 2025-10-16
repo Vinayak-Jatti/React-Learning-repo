@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+.parent {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
